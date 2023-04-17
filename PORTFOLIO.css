@@ -1,0 +1,246 @@
+.{
+    margin:0;
+    padding:0;
+    box-sizing:none;
+    border: none;
+    outline: none;
+    scroll-behavior:smooth ;
+    font-family:popins,sans-serif;
+}
+:root{
+    --bg-color:#1f242d;
+    --second-bg-color:#323946;
+    --text-color:#323946;
+    --main-color:#0ef;
+    
+
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+body{
+background: var(--bg-color);
+color: var(--text-color);
+
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:2rem 9%;
+    display:flex;
+    background:var(--bg-color);
+    justify-content:space-between;
+    z-index: 100;
+
+
+
+}
+.logo{
+    text-decoration: none;
+display: flex;
+    font-size: 30px;
+    color:white;
+    font-weight: 600;
+    cursor: default;
+    
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-left:2%;
+    font-style: italic;
+
+}
+.navbar1{
+   
+font-size:18px;
+margin-top: 2%;
+margin-left: 60%;
+color: bisque;
+
+
+
+
+}
+.navbar1 a{padding: 3%;
+text-decoration: none;
+color:white;
+
+
+}
+
+.navbar1 a:hover,
+navbar1 a.active{
+    color:aqua;
+
+}
+#menu-icon{
+    font-size: 18px;
+    color:white;
+    margin-top: 1%;
+}
+
+.home{color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.homecontents h3{
+    font-size: 3.2rem;
+    font-weight:700
+
+}
+.homecontents h1{
+    font-size: 5.6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.homecontents p{
+    font-size: 1.6;
+}
+.img{
+    width: 35vw;
+    margin-left: 3%;
+}
+span{
+    color: #0ef;
+}
+.socialmedia a{
+    display: inline;
+    justify-content:center;
+    align-items:center;
+    width: 4rem;
+    height: 4rem;
+    background:transparent;
+    border: .2rem solid aqua;
+   border: none;
+    font-size: 2rem;
+    color:aqua;
+    margin: 3rem 1.5rem 3rem 0;
+    transition:1s ease;
+}
+.socialmedia a:hover{
+    background:aqua;
+    color:black;
+    box-shadow: 0 0 1rem #0ef;
+
+
+}
+.btn{
+    display: inline;
+    padding: 3rem,2.8rem;
+    background: #0ef;
+    font-size:1.6rem;
+    color:black;
+    border-radius:4rem;
+    font-weight: 600;
+    box-shadow: 0 0 1rem aqua;
+    
+
+    letter-spacing: .3rem;
+    text-decoration: none;
+   
+
+
+}
+.btn:hover{
+    box-shadow: none;
+}
+.about{
+    color:white;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin-left: 20%;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+
+}
+.about h2{
+text-align: left;
+}
+.about h3{
+    font-size: 2.4rem;
+    }
+    .about p{
+        font-size: 1.6rem;
+        margin: 2rem,0,3rem;
+        }
+        .services1{
+align-items:center;
+justify-content:center;
+margin-left: 11%;
+color:white;
+
+
+
+
+
+
+        }
+
+
+   .services1 h2{
+    font-size: 4.6rem;
+   }
+   .services1 h3{
+
+    font-size: 2.4rem;
+   }  
+   .services1 p{
+
+    font-size: 1.6rem;
+   }  
+   .portfoliosection{display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+gap: 2.5rem;
+   }
+   .portfoliosection h2{
+    margin-bottom: 4rem;
+    
+
+   }
+   .skillsec{
+
+    color: white;
+   }
+   .collection{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+   }
+   .items a{
+    width: 8rem;
+    height: 4rem;
+   }
+   .skillsec h3{
+    font-size: 20;
+   }
+   .rr{
+    margin-top: 2%;
+   }
+.kl{
+padding: 2%;
+align-items:center;
+justify-content: center;
+margin-left: 20%;
+margin-top: 2%;
+
+}
+.contactus{
+    color: white;
+}
